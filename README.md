@@ -1,9 +1,16 @@
+O Problema Generalizado de Atribuição (PGA) é um problema clássico de Otimização Combinatória, que consiste em atribuir n tarefas a m agentes ao menor
+custo possível, de modo que cada tarefa seja atribuída a apenas um único agente e
+cada agente, por sua vez, não exceda sua capacidade máxima(Balachandran, 1976).
+
+Essa aplicação trabalha com o caso m==n, o numero de tarefas é igual ao número de máquinas (matriz quadrada)
+        
 EXECUTAR
     Para executar o programa:
-    'python nome_do_arquivo.py nome_do_arquivo 0' 
-
+    > python nome_do_arquivo.py nome_do_arquivo 0' 
+    O '0' serve para informar que a base de dados 'nome_do_arquivo' possui o numero de tarefas igual ao número de máquinas (m x n, onde m=n)
+    
     Exemplo:
-    python app.py assign2.txt 0
+    python app.py assign2.txt 0 
     python app.py assign3.txt 0
 
 DADOS
