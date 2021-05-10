@@ -2,6 +2,8 @@ O Problema Generalizado de Atribuição (PGA) é um problema clássico de Otimiz
 custo possível, de modo que cada tarefa seja atribuída a apenas um único agente e
 cada agente, por sua vez, não exceda sua capacidade máxima(Balachandran, 1976).
 
+Para resolver esse problema foi implementado na liguagem de programação python os algoritmos genéticos com chaves aleatórias (BRKGA) ela capacidade de representar de forma robusta chaves aleatórias e um decodificador eficite para cada tipo de problema. 
+
 Essa aplicação trabalha com o caso m==n, o numero de tarefas é igual ao número de máquinas (matriz quadrada)
         
 EXECUTAR
